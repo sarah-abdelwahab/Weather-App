@@ -1,0 +1,108 @@
+*{
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      
+}
+nav img {
+    width: 64px;
+    height: 38px;
+}
+
+nav ul li {
+    padding: 1px 10px;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.active-li {
+    color: #009ad8;
+}
+
+.header {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-color: #b9b9b9;
+}
+
+.header button {
+    right: 14px;
+    top: 2px;
+    padding: 13px 35px;
+}
+
+.contact button {
+    right: 18px;
+    top: 5px;
+    padding: 11px 30px;
+}
+
+.btn-primary {
+    background-color: #009ad8;
+    border-color: #009ad8;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #eceaea;
+    border-color: #eceaea;
+    color: #000000;
+}
+
+.content {
+    padding: 30px;
+}
+
+#weather-div1, #weather-div2,
+#weather-div3 {
+    background-color: #eceaea;
+    padding: 15px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+
+#weather-div1 p,
+#weather-div2 p,
+#weather-div3 p {
+    font-size: 20px;
+}
+
+#weather-div1 h1,
+#weather-div2 h1,
+#weather-div3 h1 {
+    font-size: 50px;
+}
+#weather-div1 img,
+#weather-div2 img,
+#weather-div3 img {
+    transform: scale(1.5);
+}
+
+
+
+span {
+    color: #009ad8;
+    font-size: 20px;
+    display: block;
+}
+
+.icons i {
+    border-radius: 50%;
+    border: solid 1px #eceaea;
+    background-color: #eceaea;
+    cursor: pointer;
+    color: #009ad8;
+    transition: 0.3s;
+}
+
+.icons i:hover {
+    background-color: #009ad8;
+    color: #eceaea;
+    border-color: #009ad8;
+}
+
+p {
+    left: 13.5%;
+}
